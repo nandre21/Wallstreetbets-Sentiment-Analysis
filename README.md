@@ -1,4 +1,4 @@
-# WSB Stock Sentiment Analysis Dashboard
+# r/WSB Stock Sentiment Analysis
 
 https://2o1out-neil-luetz.shinyapps.io/deploy/
 
