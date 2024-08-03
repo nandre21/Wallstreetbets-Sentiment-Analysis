@@ -4,7 +4,7 @@ https://2o1out-neil-luetz.shinyapps.io/deploy/
 
 ## Overview
 
-This Shiny app provides an analysis of stock sentiments based on Reddit discussions in the infamous r/wallstreetbets subreddit. The dashboard in addition features real-time stock prices and graphs alongside this sentiment analysis. A daily sentiment score and the top trending stocks are updated once daily from these sources. You can explore the live application [here](https://2o1out-neil-luetz.shinyapps.io/deploy/). **Note: It is not currently live due to limited resources.**
+This Shiny app provides an analysis of stock sentiments based on Reddit discussions in the infamous r/wallstreetbets subreddit. The dashboard in addition features real-time stock prices and graphs alongside this sentiment analysis. A daily sentiment score and the top trending stocks are updated once daily from these sources. You can explore the live application [here](https://2o1out-neil-luetz.shinyapps.io/deploy/). **Note: It is not currently live due to limited rshiny resources.**
 
 ## Features
 
