@@ -1,10 +1,10 @@
-# Stock Sentiment Analysis Dashboard
+# WSB Stock Sentiment Analysis Dashboard
 
 https://2o1out-neil-luetz.shinyapps.io/deploy/
 
 ## Overview
 
-This Shiny app provides a comprehensive analysis of stock sentiments based on Reddit discussions and news articles. The dashboard features real-time stock prices, sentiment analysis, and trending stocks on r/wallstreetbets. Additionally, a daily sentiment score and the top trending stocks are updated once daily. You can explore the live application [here](https://2o1out-neil-luetz.shinyapps.io/deploy/). **Note: It is not currently live due to limited worker settings on rshiny.**
+This Shiny app provides an analysis of stock sentiments based on Reddit discussions in the infamous r/wallstreetbets subreddit. The dashboard in addition features real-time stock prices and graphs alongside this sentiment analysis. A daily sentiment score and the top trending stocks are updated once daily from these sources. You can explore the live application [here](https://2o1out-neil-luetz.shinyapps.io/deploy/). **Note: It is not currently live due to limited resources.**
 
 ## Features
 
@@ -17,7 +17,7 @@ This Shiny app provides a comprehensive analysis of stock sentiments based on Re
 
 2. **Overall Sentiment Analysis and Trending Stocks**
    - Displays the top trending stocks on r/wallstreetbets, updated once daily.
-   - A gauge chart showing the overall sentiment score for r/wallstreetbets, updated once daily.
+   - A chart showing the overall sentiment score for r/wallstreetbets, updated once daily.
 
 ### Documentation and Guidance
 
@@ -28,7 +28,7 @@ This Shiny app provides a comprehensive analysis of stock sentiments based on Re
 ### Data Sources
 
 - **Stock Data**: Retrieved from Yahoo Finance using the `quantmod` package.
-- **Reddit Data**: Extracted from the `wallstreetbets` subreddit using the `RedditExtractoR` package. Sentiment analysis is performed using the `syuzhet` package.
+- **Reddit Data**: Extracted from the `wallstreetbets` subreddit using the `RedditExtractoR` package. Sentiment analysis is performed using the `syuzhet` package. NRC Word-Emotion association lexicon is used to define the sentiment.
 
 ### Functionality
 
@@ -59,7 +59,7 @@ This Shiny app provides a comprehensive analysis of stock sentiments based on Re
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/stock-sentiment-dashboard.git
+   git clone https://github.com/_______
 
 2. Open the R project file in RStudio.
 
@@ -90,9 +90,6 @@ This app uses various R packages to fetch and process data, including:
   
 ## Contributing
 Contributions are welcome! Please create a pull request or open an issue to discuss any changes.
-
-## License
-This project is licensed under the MIT License.
 
 ## Contact
 
